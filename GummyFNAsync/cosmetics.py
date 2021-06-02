@@ -37,11 +37,10 @@ class BRCosmetic:
         gameplay_tags: :class:`list`:
             List containing the gameplay tags of this cosmetic.
         """
-    def __init__(self, data: dict) -> None:
-        self.data = data
-
-        self.id = data.get('id')
-        self.path = data.get('path')
-        self.icons = data.get('images')
-        self.name = data.get('name')
-        self.description = data.get('description')
+    def __init__(data: dict) -> None:
+        data
+        id = data.get('id')
+        path = data.get('path')
+        images = data.get('images')
+        name = data.get('name')
+        description = data.get('description')
