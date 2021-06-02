@@ -3,7 +3,7 @@ Python wrapper for the GummyFn API.
 
 [![Downloads](https://pepy.tech/badge/GummyFNAsync)](https://pepy.tech/project/GummyFNAsync)
 [![Requires: Python 3.x](https://img.shields.io/pypi/pyversions/GummyFNAsync.svg)](https://pypi.org/project/GummyFNAsync/)
-[![BenBot Version: 0.0.1](https://img.shields.io/pypi/v/GummyFNAsync.svg)](https://pypi.org/project/GummyFNAsync/)
+[![Version: 1.0.0](https://img.shields.io/pypi/v/GummyFNAsync.svg)](https://pypi.org/project/GummyFNAsync/)
 
 ### Setup:
 Windows: ``py -3 -m pip install GummyFNAsync``<br>
