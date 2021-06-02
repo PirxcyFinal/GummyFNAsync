@@ -39,7 +39,7 @@ class BRCosmetic:
         """
     def __init__(self, data: dict) -> None:
         self.data = data
-        self.id = data['id']
+        self.id = data['info']['id']
         self.images = data['images']
-        self.name = data['name']
-        self.description = data['description']
+        self.name = data['info']'name']
+        self.description = data['info']['description']
