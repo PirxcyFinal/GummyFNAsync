@@ -41,5 +41,5 @@ class BRCosmetic:
         self.data = data
         self.id = data['info']['id']
         self.images = data['images']
-        self.name = data['info']'name']
+        self.name = data['info']['name']
         self.description = data['info']['description']
