@@ -14,7 +14,7 @@ Linux/macOS: ``python3 -m pip install GummyFNAsync``
 import GummyFNAsync
 import asyncio
 
-async def ben_search():
+async def skinsearch():
     result = await GummyFNAsync.get_cosmetic(
         name="Ghoul Trooper"
     )
@@ -22,7 +22,7 @@ async def ben_search():
     print(result.id)
 
 loop = asyncio.get_event_loop()
-loop.run_until_complete(ben_search())
+loop.run_until_complete(skinsearch())
 loop.close()
 ```
 
