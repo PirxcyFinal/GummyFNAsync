@@ -38,7 +38,7 @@ class BRCosmetic:
             List containing the gameplay tags of this cosmetic.
         """
     def __init__(self, data: dict) -> None:
-        self.data data
+        self.data = data
         self.id = data['id']
         self.images = data['images']
         self.name = data['name']
