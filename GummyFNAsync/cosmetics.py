@@ -39,8 +39,7 @@ class BRCosmetic:
         """
     def __init__(self, data: dict) -> None:
         self.data data
-        self.id = data.get('id')
-        self.path = data.get('path')
-        self.images = data.get('images')
-        self.name = data.get('name')
-        self.description = data.get('description')
+        self.id = data['id']
+        self.images = data['images']
+        self.name = data['name']
+        self.description = data['description']
